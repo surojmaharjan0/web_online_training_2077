@@ -1,0 +1,12 @@
+.navbar-nav li{
+    margin-right:1em;
+    padding-left:0.4em;
+    padding-right:0.4em;
+}
+.navbar-nav li:hover{
+    background-color:#dc3545;
+    border-radius: 5px;
+}
+.navbar-nav li:hover .nav-link{
+    color:#fff !important;
+}
