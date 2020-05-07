@@ -4,6 +4,6 @@ This is a repository containing all the projects submitted by students of BSc. C
 
 The repository also contains small projects done during training
 
-Conducted by : Suroj Maharjan
-Conducted on : April 13 - April 27 2020
+Conducted by : Suroj Maharjan\
+Conducted on : April 13 - April 27 2020\
 Conducted via: Zoom
