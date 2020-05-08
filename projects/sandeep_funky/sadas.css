@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Oswald",sans-serif;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(asd.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.6s ease;
+}
+
+ul li .fa{
+	margin-right: 8px;
+}
+
+ul li a:hover{
+	background-color: black;
+	color:white;
+
+}
+li.active a{
+	background-color: black;
+	color:white;
+}
+ .menu1{
+ 	display: none;
+ }
+
+ ul li:hover .menu1{
+ 	display: block;
+ 	position: absolute;
+ 	background-color: black;
+ 	
+ 	margin-left: -15px;
+ }
+
+  ul li:hover .menu1 ul{
+  	display: block;
+  	margin:10px;
+  }
+
+ ul li:hover .menu1 ul li{
+ 	width: 100px;
+ 	padding: 10px;
+ 	border-bottom: 1px dotted white;
+ 	background:transparent;
+ 	border-radius: 0;
+ 	text-align: left;
+ 	transition:0.6s ease;
+ 	
+
+
+}
+ .menu2{
+ 	display: none;
+ }
+
+ ul li:hover .menu2{
+ 	display: block;
+ 	position: absolute;
+ 	background-color: black;
+ 	margin-left: -15px;
+
+ }
+
+  ul li:hover .menu2 ul{
+  	display: block;
+  	margin:10px;
+  }
+
+ ul li:hover .menu2 ul li{
+ 	width: 100px;
+ 	padding: 5px;
+ 	border-bottom: 1px dotted white;
+ 	background:transparent;
+ 	border-radius: 0;
+ 	text-align: center;
+ 	font-size: 5px;
+
+}
+
+.logo{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	text-decoration: overline;
+	font-weight: bold;
+	background-attachment: scroll;
+}
+
+
+
+.fu{
+
+	font-size: 60px;
+
+
+}
+
+.ky{
+
+	font-size: 60px;
+	margin top: 55px;
+}
+
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+
+.title{]
+	border color: white;
+	background-attachment: fixed;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.title h1{
+	color: white;
+	font-size: 100px;
+}
+
+.buy{
+	font-size: 30px;
+	list-style-type: none;
+	margin-top: 25px;
+	float: right;
+	color: white;
+	border:1px solid transparent;
+	transition:0.6s ease;
+	border-radius: 10px;
+	padding: 8px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.buy:hover{
+	background-color: black;
+	color:white;
+
+}
+
+.buy{
+	background-color: red;
+	color:white;
+}
+
+.search{
+	height:50px;
+	padding-left: 16%;
+	margin-top: 17px;
+}
+
+.in{
+	font-size: 25px;
+	border:2;
+	outline: none;
+	width: 300px;
+	height: 50px;
+}
+
+.button{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+
+	border:2px solid white;
+	padding: 10px,30px;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	transition:0.6s ease;
+
+}
+
+.btn2{
+
+	border:2px solid white;
+	padding: 10px,30px;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	transition:0.6s ease;
+}
+
+.btn:hover{
+	background-color: red;
+	color: white;
+}
+
+.btn2:hover{
+	background-color: red;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	font-size: 70px;
+
+}
+
+
+
+
+
+.cross{
+	
+	color: red;
+	text-decoration: line-through;
+}	
+.new{
+
+	font-weight: bold;
+	color:black;
+}
+.card-footer a{
+	color:#3C1053;
+	font-size: 30px;
+	margin:20px;
+}
+
+.ga{
+	display: flex;
+	margin-top: 28px;
+	justify-content: space-evenly;
+}
+.p1,.p2,.p3,.p4{
+	width:20%;
+}
+
+h3{
+	text-align: center;
+}
+
+footer{
+	background:#EDE7F6;
+	color:rgb(127, 103, 235);
+	line-height: 30px;
+	margin-top: 50px;
+}
+.contact,.socials,{
+	list-style-type: none;
+	padding: 0;
+}
+.socials li{
+	display: inline;
+	margin: 2px;
+}
+.socials li a, .ql li a{
+	text-decoration: none;
+	color: #3C1053;
+}
+.socials li a:hover , .card-footer a:hover{
+	color: #872B5D;
+}
+
+.btn-join{
+	background:#3C1053;
+	color: white;
+	border-radius: 3px;
+	padding: 10px;
+	text-decoration: none;;
+}
+.btn-join:hover{
+	background: none;
+	color: #3C1053;
+	border:1px solid #3C1053;
+	font-weight: bold;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+.news input{
+	line-height: 30px;
+	outline-color: #3C1053;
+	width: 100%;
+}
+
+
+.foot-text{
+	padding-top: 14px;
+	padding-bottom:20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.foot1 h3{
+	font-size: 35px;
+}
+
+ 
+@media screen and (max-width: 1400px){
+    .title h1{
+        font-size: 50px;
+        padding: 20px
+
+    }
+    .buy{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 15px;
+
+    }
+    .btn2{
+    	font-size: 15px;
+       
+    }
+}
+ 
+@media screen and (max-width: 1000px){
+    .title h1{
+        font-size: 40px;
+        padding: 20px;
+       
+    }
+    .buy{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 15px;
+
+    }
+    .btn2{
+    	font-size: 15px;
+       
+    }
+
+   .search{
+   		size: 20%;
+
+   }
+}
+
+@media screen and (max-width: 995px){
+    .search{
+        display: none;
+
+    }
+    #gamer h2{
+        font-size: 25px;
+    }
+ }   
+
+ 
+ @media screen and (max-width:870px){
+    #special,.foot{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:740px){
+    header{
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        padding:5px;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0px;
+    }
+}   
+
+
