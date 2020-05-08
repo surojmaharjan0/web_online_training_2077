@@ -1,3 +1,6 @@
+body{
+    background: url(images/image.png);
+}
 .navbar-brand{
     color:#17a2b8  !important;
 }
@@ -12,4 +15,7 @@
 }
 .navbar-nav li:hover .nav-link{
     color:#fff !important;
+}
+.slick-prev:before, .slick-next:before {
+  color: #09529b !important;
 }
