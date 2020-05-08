@@ -16,6 +16,14 @@ body{
 .navbar-nav li:hover .nav-link{
     color:#fff !important;
 }
-.slick-prev:before, .slick-next:before {
-  color: #09529b !important;
+
+.alert-info{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #17a2b8,-2px -2px 5px #17a2b8;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  .top{
+      font-size: 200%;
+  }
