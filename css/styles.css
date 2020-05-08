@@ -24,6 +24,12 @@ body{
 html {
     scroll-behavior: smooth;
   }
-  .top{
-      font-size: 200%;
-  }
+.top{
+    font-size: 200%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-color:#17a2b8;
+}
