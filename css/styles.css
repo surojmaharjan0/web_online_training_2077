@@ -33,3 +33,5 @@ a{
 a:hover{
     text-decoration-color:#17a2b8;
 }
+@media(max-width:575px){
+}
