@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<title>Form Validation</title>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<h2>Register here...</h2>	
+ 			<div class="form-group">
+				<label for="username">Username</label>
+				<input type="text" placeholder="Choose Username" class="username">
+				<small>Error Message</small>
+			</div>
+			<div class="form-group">
+				<label for="mobile">Mobile Number</label>
+				<input type="number" placeholder="e.g. 9878787798" class="mobile">
+				<small>Error Message</small>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" placeholder="Choose Password" class="password">
+				<small>Error Message</small>
+			</div>
+			<div class="form-group">
+				<label for="confirm-password">Confirm Password</label>
+				<input type="password" placeholder="Confirm Password" class="c-password">
+				<small>Error Message</small>
+			</div>
+			<input class="btn" type="submit" value="Register">
+		</form>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

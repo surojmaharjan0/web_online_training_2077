@@ -1,0 +1,269 @@
+body{
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+}
+.container{
+	width:80%;
+	margin: auto;
+}
+.white{
+	color:white;
+}
+.purple{
+	color:#3C1053;
+}
+.text-center{
+	text-align: center;
+}
+
+
+.logo{
+	font-size: 25px;
+	text-decoration: overline;
+}
+.ee{
+	color:#3C1053;
+	font-size:35px;
+}
+.main-nav{
+	padding: 0;
+	list-style-type: none;
+}
+.main-nav li{
+	display: inline;
+	margin:10px;
+}
+.main-nav li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	padding:10px;
+	color:#3C1053;
+}
+.main-nav li a:hover{
+	background-color: #3C1053;
+	color: white;
+	border-radius: 10px;
+}
+.search-input{
+	border:none;
+	outline:none;
+}
+.search-div{
+	border:1px solid #3C1053;
+	border-radius: 8px;
+	padding:7px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn-primary{
+	background-color: #3C1053;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	padding:8px;
+	font-weight: bold;
+}
+
+.btn-primary:hover{
+	background:none;
+	color: #3C1053;
+	border:1px solid #3C1053;
+}
+/*STYLE 1*/
+#banner{
+	background-image: url(images/banner.jpg);	
+	height: 70vh;
+	background-size: cover;
+	background-attachment: fixed;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;	
+}
+.white{
+	color:white;
+}
+.sales-text{
+	font-size: 30px;
+}
+.hurry{
+	font-size: 90px;
+	margin: 0;
+}
+.shop-now{
+	margin-top:15px;
+}
+.sales-text,.hurry,.shop-now{
+	position: relative;
+	right:25%;
+}
+.percent{
+	font-size: 65px;
+	color: #3C1053;
+}
+
+#speciality{
+	display: flex;
+	justify-content: space-between;
+	/*margin-top: 70vh;*/
+}
+.speciality1,.speciality2,.speciality3,.speciality4{
+	border:1px solid #CFD8DC;
+	border-radius: 10px;
+	padding:25px;
+	margin-top:50px;
+	box-shadow: 4px 4px 4px #ccc;
+	text-align: center;
+	width: 25%;
+}
+.s-text{
+	font-size: 20px;
+	font-weight: bold;
+}
+#summer,#partners{
+	margin-top:70px;
+}
+#summer h2{
+	font-size: 35px;
+}
+
+.cross{
+	text-decoration: line-through;
+}	
+.new{
+	font-weight: bold;
+	color:#3C1053;
+}
+.card-footer a{
+	color:#3C1053;
+	font-size: 30px;
+	margin:20px;
+}
+
+.summer-content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-around;
+}
+.p1,.p2,.p3,.p4{
+	width:20%;
+}
+.partner{
+	margin: 10px;
+}
+footer{
+	background:#EDE7F6;
+	color: #3C1053;
+	line-height: 30px;
+	margin-top: 50px;
+}
+.contact,.socials,.ql{
+	list-style-type: none;
+	padding: 0;
+}
+.socials li{
+	display: inline;
+	margin: 10px;
+}
+.socials li a, .ql li a{
+	text-decoration: none;
+	color: #3C1053;
+}
+.socials li a:hover , .card-footer a:hover{
+	color: #872B5D;
+}
+
+.btn-subscribe{
+	background:#3C1053;
+	color: white;
+	border-radius: 3px;
+	padding: 10px;
+	text-decoration: none;;
+}
+.btn-subscribe:hover{
+	background: none;
+	color: #3C1053;
+	border:1px solid #3C1053;
+	font-weight: bold;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+.news input{
+	line-height: 30px;
+	outline-color: #3C1053;
+	width: 100%;
+}
+
+.payment{
+	margin: 10px;
+}
+.foot-text{
+	padding-top: 14px;
+	padding-bottom:20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+@media screen and (max-width: 1050px){
+	.hurry{
+		font-size: 70px;
+	}
+	.percent{
+		font-size: 50px;
+	}
+
+	.sales-text{
+		font-size: 25px;
+	}
+	.btn-primary{
+		padding:10px;
+	}
+
+}	
+
+/*MOBILE FIRST APPROACH
+	 - design website for mobile devices at first
+	 - add responsiveness
+	 	- if the device size increaases, what changes are necessary
+
+DESKTOP FIRST APPROACH
+- design website for desktops at first
+	 - add responsiveness
+	 	- if the device size decrease, what changes are necessary*/
+@media screen and (max-width:995px){
+	.search-div{
+		display: none;
+	}
+	#summer h2{
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 845px){
+	#speciality,.foot{
+		width: 90%
+	}	
+}
+
+@media screen and (max-width: 817px){
+	#partners{
+		display: none;
+	}
+}
+
+@media screen and (max-width:740px){
+	header{
+		display: block;
+		text-align: center;
+	}
+}

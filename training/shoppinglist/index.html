@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Shopping Helper</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Shopping List</h2>
+		<i class="fa fa-shopping-bag fa-2x"></i>
+		<main>		
+			<form>
+				<div class="form-group">
+					<label for="item">Item Name</label>
+						<input type="text" id="name">
+				</div>
+				<div class="form-group">
+					<label for="body">Quantity</label>
+					<input type="number" min="1" id="qty">
+				</div>
+
+				<button type="submit"> Save</button>
+			</form>
+			<div class="messages">
+				<label class="white">Shopping Items</label>
+				<ul class="shopping-list">
+					<!-- <li>Item 1
+						<a href="#">
+							<i class="fa fa-trash"></i>
+						</a>
+					</li>
+					 -->
+				</ul>
+			</div>
+		</main>
+	</div>
+	<div class="alert hidden" id="alert" >
+		Alert Text
+		<i class="fa fa-times" id="dismiss"></i>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

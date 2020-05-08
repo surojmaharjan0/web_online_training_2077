@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	height:100vh;
+	background: #364f6b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .clock{
+	color:#fc5185;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 45px;
+	height:120px;
+	width:450px;
+	text-align: center;
+	line-height: 120px;
+	background: #43dde6;
+	box-shadow: 3px 3px 5px #ccc;
+	letter-spacing: 3px;
+}

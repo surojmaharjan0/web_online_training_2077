@@ -1,5 +1,5 @@
 body{
-    background: url(images/image.png);
+    background: url(../images/image.png);
 }
 .navbar-brand{
     color:#17a2b8  !important;
