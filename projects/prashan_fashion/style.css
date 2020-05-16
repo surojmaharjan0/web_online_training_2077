@@ -1,0 +1,25 @@
+.header
+{
+    font-family: "Tempus Sans ITC";
+    text-align: center;
+    font-size: 500%;
+    color: darkslategray;
+}
+
+.main-table
+{
+    text-decoration : none ;
+    background: silver;
+    text-align: center;
+    color: hotpink;
+
+}
+
+.img-link
+{
+
+}
+.a
+{
+    hover :black ;
+}
