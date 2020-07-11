@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.page-content {
+  min-height: 100%;
+}
+.logo {
+  font-family: "Galada", cursive;
+  font-size: 20px;
+}
+
+.logoimg {
+  height: 90px;
+  width: 100px;
+}
+header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.nav-links,
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-weight: 450;
+  margin: 5px;
+}
+nav {
+  flex: 2;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  color: lightslategray;
+  font-size: 18px;
+  text-decoration: none;
+}
+.imgmenu {
+  height: 60px;
+}
+.menu {
+  flex: 1;
+}
+
+.presentation {
+  background-image: url(./Images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.intro-text {
+  text-align: center;
+  text-shadow: 4px 4px 4px rgb(110, 69, 69);
+  color: rgb(63, 45, 45);
+  padding: 220px;
+  font-size: 18px;
+}
+.intro-text button {
+  align-self: center;
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  color: rgb(34, 70, 110);
+  background-color: Transparent;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.middle {
+  margin-top: 100px;
+  text-align: center;
+}
+.middle h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: "Galada", cursive;
+  text-decoration: underline;
+}
+
+.Tag {
+  font-size: 22px;
+  color: darkgrey;
+}
+.text-area {
+  font-size: 16px;
+  color: rgb(112, 110, 110);
+}
+
+.Todays-special {
+  background-color: rgb(236, 234, 232);
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.Todays-special-text {
+  font-family: "Galada", cursive;
+  padding: 3rem;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+.Todays-special-images {
+  display: flex;
+  justify-content: space-around;
+}
+.Todays-special-images img {
+  height: 250px;
+  width: 220px;
+  border-radius: 10%;
+}
+
+.Todays-specialimg h3 {
+  margin: 15px;
+  text-align: center;
+}
+
+.Todays-specialimg button {
+  align-content: center;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  color: rgb(184, 163, 48);
+  background-color: rgb(85, 56, 114);
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us {
+  background-image: url(./Images/green-ceramic-mug-filled-with-black-coffee-3773835.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 630px;
+  margin-top: 60px;
+  padding: 100px;
+  text-align: center;
+}
+
+.contact-head h3 {
+  text-align: center;
+  font-family: "Galada", cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+  font-size: 18px;
+  width: auto;
+  color: rgb(73, 109, 163);
+}
+form input,
+form textarea {
+  margin: 15px auto;
+}
+
+.btn-submit button {
+  color: rgb(73, 109, 163);
+  background-color: Transparent;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+footer {
+  background-color: rgb(221, 220, 218);
+  color: rgb(63, 45, 45);
+  height: 450px;
+  position: relative;
+  margin-top: 35px;
+  align-items: center;
+}
+.footer-section-about img {
+  height: 100px;
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 615px;
+}
+.footer-section-about h4 {
+  margin-bottom: 10px;
+}
+.footer-logo {
+  text-align: center;
+  font-family: "Galada", cursive;
+  font-size: 20px;
+}
+.footer-section-text {
+  text-align: center;
+}
+.footer-section-text img {
+  height: 18px;
+}
+
+.footer-section-social {
+  margin-left: 570px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer .footer-bottom {
+  text-align: center;
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
